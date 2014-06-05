@@ -10,12 +10,9 @@ because until now, in the angular API, I can't find a method to tell the width o
 
 
 and here is a simple example:
-  <script src="xxxx/angular.js"></script>
-  <script src="xxxx/jquery.js"></script>
-  <script>
-    var myapp=angular.module("myapp",["wzf"]);
-  </script>
-  
+
+  var myapp=angular.module("myapp",["wzf"]);
+
   
   and in the html body:
   
