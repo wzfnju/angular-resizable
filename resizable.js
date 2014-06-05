@@ -6,7 +6,10 @@ wzf.module('my-app',[])
 			$element.css({
 				top:"100px",
 				overflow: "hidden",
-				display:"block"
+				display:"block",
+				position:"absolute",
+				border:'1ps solid red',
+				backgroundColor:'lightgrey'
 			});
 			
 			var top=angular.element("<div style='width:100%; border-top:2px solid black;  height:1px;'></div>");
