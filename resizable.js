@@ -140,4 +140,4 @@ wzf.module('my-app',[])
 		return {
 			link:link
 		};
-	})
+	});
