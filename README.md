@@ -2,4 +2,23 @@ angular-resizable
 =================
 
 write a directive that indicates  resizablity
-nothing more to say
+
+i have to say that this is not a perfect directive, not only because it's has so many duplicate statment, but also because 
+its dependence on JQuery.
+
+because until now, in the angular API, I can't find a method to tell the width of specified component, I have to use JQuery.
+
+
+and here is a simple example:
+  <script src="xxxx/angular.js"></script>
+  <script src="xxxx/jquery.js"></script>
+  <script>
+    var myapp=angular.module("myapp",["wzf"]);
+  </script>
+  
+  
+  and in the html body:
+  
+    <div resizable style="width:300px; height:400px;">
+          blablabla
+    </div>
